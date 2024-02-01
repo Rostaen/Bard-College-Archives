@@ -1,0 +1,10 @@
+# Ignoring specific files
+*.pdf
+verify-request-form.php
+verify-request-form-arendt.php
+verify-request-form-sussman.php
+contactform-arendt-OLD.php
+contactform-old.php
+contactform-sussman-OLD.php
+
+# Ignoring folders

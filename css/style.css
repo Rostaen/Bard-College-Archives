@@ -1,0 +1,258 @@
+body {
+	background: url('../images/bg-slice.jpg') repeat-x top left #cbc5af fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: #630;
+	font-weight: bold;
+	text-decoration: none;
+}
+hr{
+	border-top-color: #aaa;
+	border-bottom-color: #aaa;
+	border-right-color: #aaa;
+	border-left-color: #aaa;
+	background-color: #aaa;
+}
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-size: 12px; 
+	color: #996600;
+}
+a {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	transition-duration: 0.4s;
+		-webkit-transition-duration: 0.4s;
+		-moz-transition-duration: 0.4s;
+		-ms-transition-duration: 0.4s;
+		-o-transition-duration: 0.4s;
+}
+a:visited {
+	color: #996600;
+	text-decoration: none;
+}
+a:hover {
+	color: #496772;
+}
+/*a:active {
+	color: #5b3d00;
+}*/
+p{
+	margin: 0px 0px 10px;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.x {
+	font-size: 9px;
+	font-style: italic;
+}
+
+.container{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #f8efe8;
+}
+
+.header{
+
+}
+.header img{
+	width: 100%;
+	max-width: 800px;
+}
+.header-top-text{
+	background-color: #c9c3ab;
+	color: black;
+	border-top: 1px white solid;
+	border-bottom: 1px solid white;
+}
+.header-bot-text{
+	background-color: #496772;
+	color: white;
+}
+.header-top-text, .header-bot-text{
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	padding: 7px 0px;
+	font-weight: bold;
+	font-family: Times New Roman, Serif;
+	letter-spacing: 2px;
+}
+
+.sidebar{
+	width: 22%;
+	float: left;
+	padding: 1.5%;
+}
+
+.style5 a{
+	font-size: 14px;
+}
+.sidebar .style5:first-child{
+	
+}
+.sidebar .style5{
+	width: 100%;
+	float: left;
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+.content{
+	width: 72%;
+	float: right;
+	background-color: #f8efe8;
+	padding: 1.5%;
+}
+
+.content.vob img.felix-2, .content.vob img.felix-fam, .content.vob img.kritzler, .content.vob img.kline{
+	width: 100%;
+	max-width: 600px;
+}
+
+.footer{
+	background-color: #496772;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px 0px;
+}
+.footer a{
+	color: #fff;
+	font-weight: normal;
+	font-size: 10px;
+}
+.footer a:active{
+	color: #999;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.content .sliderwrapper{
+	margin: 0px 0px 15px 20px;
+}
+
+.sidebar-item{
+	float: left;
+}
+.sidebar-item h2{
+	font-size: 16px;
+	border-bottom: 1px solid #496772;
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+
+/* New Form CSS */
+.request-form h2{
+	margin: 0px 0px 10px;
+	border-bottom: 1px solid #496772;
+}
+.left-container{
+	float: left;
+	width: 30%;
+}
+.right-container{
+	float: right;
+	width: 69%;
+}
+.left-container, .right-container{
+	
+}
+.description-line{
+	text-align: right;
+}
+.description-line, .input-line{
+	height: 30px;
+}
+.description-line.more-space, .input-line.more-space{
+	height: 40px;
+}
+.description-line.more-space-l, .input-line.more-space-l{
+	height: 60px;
+}
+.description-line.more-space-xl, .input-line.more-space-xl{
+	height: 100px;
+}
+
+
+/* MISC */
+.clear{
+	clear: both;
+}
+.hide{
+	display: none;
+}
+.required{
+	color: #b90124;
+}
+.warning {
+	box-shadow: 0px 0px 5px #b90124;
+}
+.small-text{
+	font-size: 12px;
+}
+
+/* RESPOSIVE CSS
+=================================================================*/
+
+@media only screen and (min-width: 471px) and (max-width: 599px){
+	.header-top-text, .header-bot-text{
+		font-size: 22px;
+	}
+	.content .sliderwrapper{
+		float: none;
+		display: block;
+		width: 100%;
+		max-width: 277.77px;
+		margin: 0 auto 15px;
+	}
+}
+
+@media only screen and (max-width: 470px){
+	.header-top-text, .header-bot-text{
+		font-size: 20px;
+	}
+	.content .sliderwrapper{
+		float: none;
+		display: block;
+		width: 100%;
+		max-width: 277.77px;
+		margin: 0 auto 15px;
+	}
+
+	.sidebar{
+		width: 100%;
+		float: left;
+		padding: 1.5% 0 0 0;
+	}
+	.sidebar .style5{
+		width: initial;
+		text-align: left;
+		padding: 5px;
+		border-left: 1px solid;
+	}
+	.sidebar .style5:first-child{
+		/*border-left: 0px;*/
+	}
+
+	.content{
+		width: 97%;
+		float: left;
+	}
+}
